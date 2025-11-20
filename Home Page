@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>~*~ CardinalBooks.com: Your Gateway to Literary Excellence ~*~</title>
+    <!-- CSS is best handled with a mix of inline styles and <style> block in Web 1.0 -->
+    <style>
+        /* Classic Web 1.0 Look: Dark background, light text, fixed width center */
+        body {
+            background-color: #000080; /* Navy Blue */
+            color: #C0C0C0; /* Silver/Gray text */
+            font-family: 'Times New Roman', serif;
+            text-align: center;
+        }
+        .container {
+            width: 768px; /* Fixed width */
+            margin: 20px auto;
+            border: 3px solid #FFD700; /* Gold Border */
+            background-color: #000000; /* Black content area */
+            padding: 15px;
+        }
+        h1 {
+            color: #FF0000; /* Bright Red */
+            font-family: 'Impact', sans-serif;
+            text-shadow: 2px 2px #FFFF00;
+        }
+        a:link, a:visited {
+            color: #00FFFF; /* Aqua Links */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #FF00FF; /* Fuschia on hover */
+            text-decoration: underline;
+        }
+        .navbar a {
+            padding: 5px 15px;
+            border: 2px outset #C0C0C0;
+            background-color: #808080;
+            display: inline-block;
+            margin: 0 5px;
+            color: black;
+        }
+        .blinker {
+            /* Custom CSS for the <blink> effect, since it's deprecated */
+            animation: blinker 1s linear infinite;
+            font-weight: bold;
+            color: #FF00FF; /* Pink/Fuschia */
+        }
+        @keyframes blinker {
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Header Section with Title and Banner -->
+    <center>
+        <!-- Use <center> tag for layout, a Web 1.0 standard -->
+        <table border="0" cellpadding="5" cellspacing="0" width="100%">
+            <tr>
+                <td width="10%">
+                    <!-- Placeholder for a spinning GIF or low-res logo -->
+                    <img src="https://placehold.co/70x70/FF0000/FFFFFF?text=BOOK" alt="CardinalBooks Logo" border="1">
+                </td>
+                <td align="center" valign="middle">
+                    <h1><font size="+5">CARDINAL BOOKS</font></h1>
+                    <i class="blinker">~ Your #1 Source for Vintage and New Books! ~</i>
+                </td>
+                <td width="10%">
+                    <!-- Placeholder for a second logo or decorative element -->
+                    <img src="https://placehold.co/70x70/FFFF00/000000?text=GEOCITIES" alt="Geocities Style Icon" border="1">
+                </td>
+            </tr>
+        </table>
+    </center>
+
+    <hr noshade size="2" color="#C0C0C0">
+
+    <!-- Navigation Menu (Table Layout is King) -->
+    <div class="navbar">
+        <!-- Linking to the same page for now, future pages will replace the '#' -->
+        <a href="index.html">H O M E</a>
+        <a href="#about">A B O U T &nbsp; U S</a>
+        <a href="#contact">C O N T A C T</a>
+        <a href="#faq">F A Q</a>
+    </div>
+
+    <hr noshade size="2" color="#C0C0C0">
+
+    <!-- Main Content Area -->
+    <p><marquee direction="left" scrollamount="6" bgcolor="#FFD700">
+        <font color="#000000" size="4">!! HOT DEALS !! Visit our new Virtual Shelf 3.0 today! Limited Edition 1st Prints Available Now!</font>
+    </marquee></p>
+
+    <table border="1" cellpadding="15" cellspacing="0" width="100%" bgcolor="#000044"> <!-- Darker Blue Section -->
+        <tr>
+            <!-- Left Column for Navigation/Links -->
+            <td width="20%" valign="top" style="border-right: 3px double #FFD700;">
+                <p><b>Quick Links:</b></p>
+                <ul>
+                    <li><a href="#new">New Arrivals (Updated Daily!)</a></li>
+                    <li><a href="#sale">Clearance Section</a></li>
+                    <li><a href="#genres">Browse by Genre</a></li>
+                    <li><a href="#guestbook">Sign Our Guestbook!</a></li>
+                </ul>
+                <p>&nbsp;</p>
+                <center>
+                    <!-- Animated GIF Placeholder -->
+                    <img src="https://placehold.co/80x80/00FF00/000000?text=NEW%0A%28GIF%29" alt="New Animated Icon" border="0">
+                </center>
+            </td>
+
+            <!-- Right Column for Main Home Content -->
+            <td width="80%" valign="top" align="left">
+                <h2>Welcome to CardinalBooks!</h2>
+                <font size="3" color="#FFFFFF">
+                <p>Since 1998, CardinalBooks has been dedicated to providing the finest literary works to the discerning internet user. We believe in the power of the printed word and offer a vast, manually-curated selection, updated via FTP every 72 hours!</p>
+
+                <h3><font color="#FFD700">Featured Title of the Month:</font></h3>
+                <table border="1" cellpadding="10" cellspacing="0" width="90%" bgcolor="#000000" style="margin: 0 auto;">
+                    <tr>
+                        <td width="30%" align="center">
+                            <img src="https://placehold.co/120x180/800080/FFFFFF?text=Book+Cover" alt="Featured Book Cover" border="1">
+                        </td>
+                        <td width="70%">
+                            <p><b>"The Legend of the Async Await"</b> by S. R. Code</p>
+                            <p>A thrilling novel of virtual reality, existential coding, and forbidden love in the data stream. Get your copy *TODAY* for just <strike>$19.99</strike> <b>$14.95</b>!</p>
+                            <p align="right"><a href="#buy">ORDER NOW!!!</a></p>
+                        </td>
+                    </tr>
+                </table>
+                <p><i>Note: Please use Netscape Navigator 4.0 or higher for best viewing experience. Optimized for 800x600 resolution.</i></p>
+                </font>
+            </td>
+        </tr>
+    </table>
+
+    <hr noshade size="2" color="#C0C0C0">
+
+    <!-- Footer Section: Hit Counter and Copyright -->
+    <p>
+        <img src="https://placehold.co/100x20/808080/FFFFFF?text=Hit+Counter:+1998" alt="Hit Counter Placeholder" border="0">
+    </p>
+
+    <p><font size="2" color="#808080">&copy; 1998-2025 CardinalBooks Webring Member #73. All Rights Reserved.</font></p>
+
+</div>
+
+</body>
+</html>
