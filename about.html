@@ -3,33 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>~*~ CardinalBooks.com: About Our Mission ~*~</title>
+    <title>~*~ CardinalBooks.com: Your Gateway to Literary Excellence ~*~</title>
+    <!-- CSS is best handled with a mix of inline styles and <style> block in Web 1.0 -->
     <style>
+        /* Classic Web 1.0 Look: Dark background, light text, fixed width center */
         body {
-            background-color: #000080;
-            color: #C0C0C0;
+            background-color: #000080; /* Navy Blue */
+            color: #C0C0C0; /* Silver/Gray text */
             font-family: 'Times New Roman', serif;
             text-align: center;
         }
         .container {
-            width: 768px;
+            width: 768px; /* Fixed width */
             margin: 20px auto;
-            border: 3px solid #FFD700;
-            background-color: #000000;
+            border: 3px solid #FFD700; /* Gold Border */
+            background-color: #000000; /* Black content area */
             padding: 15px;
         }
         h1 {
-            color: #FF0000;
+            color: #FF0000; /* Bright Red */
             font-family: 'Impact', sans-serif;
             text-shadow: 2px 2px #FFFF00;
         }
         a:link, a:visited {
-            color: #00FFFF;
+            color: #00FFFF; /* Aqua Links */
             text-decoration: none;
             font-weight: bold;
         }
         a:hover {
-            color: #FF00FF;
+            color: #FF00FF; /* Fuschia on hover */
             text-decoration: underline;
         }
         .navbar a {
@@ -41,9 +43,10 @@
             color: black;
         }
         .blinker {
+            /* Custom CSS for the <blink> effect, since it's deprecated */
             animation: blinker 1s linear infinite;
             font-weight: bold;
-            color: #FF00FF;
+            color: #FF00FF; /* Pink/Fuschia */
         }
         @keyframes blinker {
             50% { opacity: 0; }
@@ -55,20 +58,22 @@
 
 <div class="container">
 
-    <!-- Header Section -->
+    <!-- Header Section with Title and Banner -->
     <center>
+        <!-- Use <center> tag for layout, a Web 1.0 standard -->
         <table border="0" cellpadding="5" cellspacing="0" width="100%">
             <tr>
                 <td width="10%">
-                    <!-- Ball State Logo -->
-                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Ball_State_Cardinals_logo.svg/851px-Ball_State_Cardinals_logo.svg.png" width="80" alt="Ball State Cardinal Logo" border="1">
+                    <!-- Placeholder for a spinning GIF or low-res logo -->
+                    <img src="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyd2tzcjQzZmVzYzQ5cnpob3E2cmNqc25jdmNzcmtlbHZldDBzMzN0diZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/VfK8uwEgsWawGtsSKO/giphy.gif" width="80" alt="Ball State Cardinal Logo" border="1">
                 </td>
                 <td align="center" valign="middle">
                     <h1><font size="+5">CARDINAL BOOKS</font></h1>
-                    <i class="blinker">~ Your #1 Source for Vintage and New Books! ~</i>
+                    <i class="blinker">~ Thank you for visiting Cardinal Books! ~</i>
                 </td>
                 <td width="10%">
-                    <img src="https://placehold.co/70x70/FFFF00/000000?text=GEOCITIES" alt="Geocities Style Icon" border="1">
+                    <!-- Geocities icon removed, cell kept for spacing -->
+                    &nbsp;
                 </td>
             </tr>
         </table>
@@ -76,11 +81,11 @@
 
     <hr noshade size="2" color="#C0C0C0">
 
-    <!-- Navigation Menu -->
+    <!-- Navigation Menu (Table Layout is King) -->
     <div class="navbar">
+        <!-- Linking to the same page for now, future pages will replace the '#' -->
         <a href="index.html">H O M E</a>
-        <!-- ABOUT US is active -->
-        <b style="padding: 5px 15px; border: 2px inset #C0C0C0; background-color: #A0A0A0; display: inline-block; margin: 0 5px; color: black;">A B O U T &nbsp; U S</b>
+        <a href="about.html">A B O U T &nbsp; U S</a>
         <a href="contact.html">C O N T A C T</a>
         <a href="faq.html">F A Q</a>
     </div>
@@ -88,43 +93,39 @@
     <hr noshade size="2" color="#C0C0C0">
 
     <!-- Main Content Area -->
-    <table border="1" cellpadding="15" cellspacing="0" width="100%" bgcolor="#000044">
+    <!-- Removed "HOT DEALS" Marquee -->
+
+    <table border="1" cellpadding="15" cellspacing="0" width="100%" bgcolor="#000044"> <!-- Darker Blue Section -->
         <tr>
-            <!-- Left Column -->
+            <!-- Left Column for Navigation/Links -->
             <td width="20%" valign="top" style="border-right: 3px double #FFD700;">
                 <p><b>Quick Links:</b></p>
                 <ul>
-                    <li><a href="index.html#new">New Arrivals</a></li>
-                    <li><a href="index.html#sale">Clearance Section</a></li>
-                    <li><a href="index.html#genres">Browse by Genre</a></li>
-                    <li><a href="index.html#guestbook">Sign Our Guestbook!</a></li>
+                    <li><a href="new.html">New Arrivals (Updated Daily!)</a></li>
                 </ul>
-                <center>
-                    <img src="https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUyam5lNnJuYXZja2gzcDM2ODVkbGpmdzJmNWU0dHRyZnV4Zzd1cmhsaCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/ztisqLhP99tVSHG136/source.gif" alt="New Animated Icon" border="0" width="80">
-                </center>
+                <p>&nbsp;</p>
             </td>
 
-            <!-- Right Column: About Us Content -->
+            <!-- Right Column for Main Home Content -->
             <td width="80%" valign="top" align="left">
-                <h2><font color="#FFD700">~ About CardinalBooks ~</font></h2>
-                <center>
-                    <img src="https://placehold.co/150x150/00FF00/000000?text=TRUSTED%0A%28BADGE%29" alt="Trusted Badge" border="1" align="right" hspace="15">
-                </center>
-                <font size="4" color="#FFFFFF">
-                
-                <!-- ********* START EDITING HERE ********* -->
-                <p>We are a family owned business, serving the Muncie residents with books based on hobbies or for education. We want to be more than just a bookstore. As a staff, we hope you find everything you need! Thank you for shopping with Cardnial Books.</p>
-                <!-- ********* STOP EDITING HERE ********* -->
+                <h2>Welcome to CardinalBooks!</h2>
+                <font size="3" color="#FFFFFF">
+                <p>Since 1998, CardinalBooks has been dedicated to providing the finest literary works to the discerning internet user. We believe in the power of the printed word and offer a vast, manually-curated selection, updated via FTP every 72 hours!</p>
 
+                <!-- Removed "Featured Title of the Month" and "ORDER NOW" section -->
+
+                <p><i>Note: Please use Netscape Navigator 4.0 or higher for best viewing experience. Optimized for 800x600 resolution.</i></p>
                 </font>
-                <center>
-                    <p><a href="contact.html">Click HERE to Send Us a Message!</a></p>
-                </center>
             </td>
         </tr>
     </table>
 
     <hr noshade size="2" color="#C0C0C0">
+
+    <!-- Footer Section: Hit Counter and Copyright -->
+    <p>
+        <img src="https://placehold.co/100x20/808080/FFFFFF?text=Hit+Counter:+1998" alt="Hit Counter Placeholder" border="0">
+    </p>
 
     <p><font size="2" color="#808080">&copy; 1998-2025 CardinalBooks Webring Member #73. All Rights Reserved.</font></p>
 
